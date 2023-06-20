@@ -19,25 +19,30 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites </h2>
 
-- PHP Manager for IIS
+- Azure Virtual Machine
+- Internet Information Services
+- PHP Manager 
 - Rewrite Module
 - PHP 7.3.8
-- VC_redist
+- VC Redist
 - MySQL
+- Heidi SQL
 - osTicket
 
 <h2>Installation Steps</h2>
 
 <p>
-<img src="(https://i.imgur.com/41grhpv.png)" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+![image](https://github.com/nathangatdula/osticket-prereqs/assets/136846362/afec1a50-0bde-4653-a318-691923dfca23)
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+First of all, Microsoft Azure is used to create a Virtual Machine that uses Windows 10 version 22H2. Your virtual machine should have at least 2 vcpu's and 16gb of _____. Create a username and password that will then be used to log into your virtual machine.
+
+Next, log in to the newly created virtual machine using the Remote Desktop connection in Windows and insert the public IP address of the virtual machine. Use the username 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/L1inp2l.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
